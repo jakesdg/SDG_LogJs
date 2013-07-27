@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <SDG_LogJs>
+            <version>1.0</version>
+        </SDG_LogJs>
+    </modules>
+    <frontend>
+        <layout>
+            <updates>
+                <sdg_logjs module="sdg_logjs">
+                    <file>sdg_logjs.xml</file>
+                </sdg_logjs>
+            </updates>
+        </layout>
+    </frontend>
+</config>

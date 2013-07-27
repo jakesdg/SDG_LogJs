@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<modules>
+		<SDG_LogJs>
+			<active>true</active>
+			<codePool>local</codePool>
+		</SDG_LogJs>
+	</modules>
+</config>
