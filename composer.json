@@ -1,0 +1,23 @@
+{
+    "name": "sdg/logjs",
+    "type": "magento-module",
+    "license": "MIT",
+    "homepage": "http://sdg.la",
+    "description": "Very primitive redis javascript error logging.",
+    "authors": [
+        {
+            "name": "Jake"
+        }
+    ],
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "extra": {
+        "map": [
+            ["app/code/local/SDG/LogJs/etc/config.xml", "public/app/code/local/SDG/LogJs/etc/config.xml"],
+            ["app/etc/modules/SDG_LogJs.xml", "public/app/etc/modules/SDG_LogJs.xml"],
+            ["logjs.php", "public/logjs.php"],
+            ["js/logjs/logjs.js", "public/logjs/logjs.js"]
+        ]
+    }
+}
