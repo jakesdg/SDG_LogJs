@@ -2,8 +2,8 @@
     "name": "sdg/logjs",
     "type": "magento-module",
     "license": "MIT",
-    "homepage": "http://sdg.la",
-    "description": "Very primitive redis javascript error logging.",
+    "homepage": "https://github.com/jakesdg/SDG_LogJs",
+    "description": "Very primitive New Relic javascript error logging.",
     "authors": [
         {
             "name": "Jake"
@@ -14,10 +14,10 @@
     },
     "extra": {
         "map": [
-            ["app/code/local/SDG/LogJs/etc/config.xml", "public/app/code/local/SDG/LogJs/etc/config.xml"],
-            ["app/etc/modules/SDG_LogJs.xml", "public/app/etc/modules/SDG_LogJs.xml"],
-            ["logjs.php", "public/logjs.php"],
-            ["js/logjs/logjs.js", "public/logjs/logjs.js"]
+            ["app/code/local/SDG/LogJs/etc/config.xml", "app/code/local/SDG/LogJs/etc/config.xml"],
+            ["app/etc/modules/SDG_LogJs.xml", "app/etc/modules/SDG_LogJs.xml"],
+            ["logjs.php", "logjs.php"],
+            ["js/logjs/logjs.js", "logjs/logjs.js"]
         ]
     }
 }
