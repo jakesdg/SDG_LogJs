@@ -17,7 +17,7 @@
             ["app/code/local/SDG/LogJs/etc/config.xml", "app/code/local/SDG/LogJs/etc/config.xml"],
             ["app/etc/modules/SDG_LogJs.xml", "app/etc/modules/SDG_LogJs.xml"],
             ["logjs.php", "logjs.php"],
-            ["logjs/logjs.js", "logjs/logjs.js"]
+            ["js/logjs/logjs.js", "js/logjs/logjs.js"]
         ]
     }
 }
